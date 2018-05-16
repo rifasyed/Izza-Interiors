@@ -1,0 +1,31 @@
+body {
+    font-family: 'Cabin', sans-serif;
+
+}
+
+.pseudonav {
+    background-image: url('../images/diningTable.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 500px;
+    width: auto;
+    color: white;
+}
+
+.nav {
+    background-color: rgba(0, 0, 0, 0.137)
+}
+
+.nav-link {
+    color: white;
+}
+
+#logo {
+    height: 50px;
+    float: left;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
