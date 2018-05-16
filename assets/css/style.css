@@ -1,6 +1,6 @@
 body {
     font-family: 'Cabin', sans-serif;
-
+    font-weight: lighter;
 }
 
 .pseudonav {
@@ -20,7 +20,7 @@ body {
     color: white;
 }
 
-#logo {
+#logo-nav {
     height: 50px;
     float: left;
 }
@@ -28,4 +28,60 @@ body {
 .jumbotron {
     text-align: center;
     background-color: transparent;
+}
+
+#head2 {
+    color: #339999;
+}
+
+#steps {
+    font-weight: lighter;
+}
+
+.col1 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    width: 200px;
+}
+
+.centeredBtn {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    width: 200px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #339999;
+}
+
+#logo-footer {
+    height: 150px;
+}
+
+.icons {
+    text-align: center;
+    color: #339999;
+}
+
+.review {
+    margin-bottom: 50px;
+}
+
+p {
+    font-size: 20px;
+    color: black;
 }

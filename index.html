@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
         crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -13,42 +15,108 @@
 </head>
 
 <body>
-    <div class="pseudonav">
-        <ul class="nav justify-content-center">
-            <img id="logo" src="./assets/images/Logo.png" alt="izza logo">
-            <li class="nav-item">
-                <a class="nav-link active" href="#">Online Service</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Full Service</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-            </li>
-        </ul>
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-                <h2 class="display-4">Turn your house into a home.</h2>
-                <p class="lead">Custom interior design that will transform your space.</p>
+    <div class="wrapper">
+        <div class="pseudonav">
+            <ul class="nav justify-content-center">
+                <img id="logo-nav" src="./assets/images/Logo.png" alt="izza logo">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Online Service</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Full Service</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <h2 class="display-4">Turn your house into a home.</h2>
+                    <p class="lead">Custom interior design that will transform your space.</p>
+                </div>
+                <button>Online Service</button>
+                <button>Full Service</button>
             </div>
-            <button>Online Service</button>
-            <button>Full Service</button>
+        </div>
+
+
+        <div class="container">
+            <div class="row row1 justify-content-center">
+                <h4 id="steps">
+                    <span id="head1">Every project is entirely personalized to you and we insure</span>
+                    <span id="head2">100% Client Satisfaction</span>
+                </h4>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 col1">
+                    <img src="./assets/images/loveseat.jpg" alt="couch" style="height:440px;">
+                    <div class="centered">Help us design your space in four easy steps!</div>
+                    <button class="centeredBtn">Get Started!</button>
+                </div>
+                
+                <div class="col-sm-4 icons">
+                    <i class="far fa-file-alt fa-4x"></i>
+                    <h2>Step One:</h2>
+                    <h4>Tell us about your space</h4>
+                    <p>Start your project but completing our online information questionanire</p>
+                    <i class="far fa-comments fa-4x"></i>
+                    <h2>Step Three:</h2>
+                    <h4>Work closely with your designer</h4>
+                    <p>Through our collaborative environment, work closely with your designer to help revive your space</p>
+                </div>
+                <div class="col-sm-4 icons">
+                    <i class="far fa-images fa-4x"></i>
+                    <h2>Step Two:</h2>
+                    <h4>View your options</h4>
+                    <p class="review">Review the different design styles</p>
+                    <i class="far fa-clone fa-4x"></i>
+                    <h2>Step Four:</h2>
+                    <h4>Transform your space</h4>
+                    <p>Receive your Final Concept and make all the purchases with one click</p>
+
+                </div>
+            </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-sm-6">
-            <img src="./assets/images/loveseat.jpg" alt="couch by door">
+
+
+    <footer class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-3">
+            <img id="logo-footer" src="./assets/images/Logo.png" alt="izza logo">
         </div>
-        <div class="col-sm-6">
-            <div class="row"></div>
-            <div class="row"></div>
+        <div class="col-sm-4">
+            <nav class="nav flex-column">
+                <a class="nav-link active" href="#">Home</a>
+                <a class="nav-link" href="#">Online Service</a>
+                <a class="nav-link" href="#">Full Service</a>
+                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#">Portfolio</a>
+                <a class="nav-link" href="#">Contact</a>
+            </nav>
         </div>
+        <div class="col-sm-3">
+            <form>
+                <h4>Subscribe to our Newsletter</h4>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="name" placeholder="your name">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" id="email" placeholder="your email">
+                </div>
+                <button type="submit" class="btn btn-primary">keep me updated!</button>
+            </form>
+        </div>
+        <div class="col-sm-1"></div>
+
+    </footer>
+
     </div>
 </body>
 
