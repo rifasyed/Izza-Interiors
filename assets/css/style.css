@@ -82,10 +82,11 @@ body {
 }
 
 footer {
-    padding: 40px;
+    padding: 45px 40px 40px 40px;
     text-align: center;
     background-color: #339999;
     height: 350px;
+
 }
 
 .form-control {
@@ -104,6 +105,14 @@ footer {
     text-align: center;
     color: #339999;
     padding-bottom: 20px;
+}
+
+.social {
+    color: white;
+}
+
+.fa-instagram {
+    margin-right: 10px;
 }
 
 .review {
